@@ -7,7 +7,6 @@ html,
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 /* CSS Global */
@@ -50,27 +49,29 @@ body {
 /* CSS Hero section */
 .hero {
     background: #1F2937;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 700px));
-    grid-gap: 24px;
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
     padding: 64px 212px;
+    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 64px;
+}
+
+.hero-content {
+    max-width: 700px;
 }
 
 .hero-title {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 700;
-    width: calc(100% - 32px); /* Adjust based on desired spacing */
+    width: 100%;
     margin-bottom: 16px;
 }
 
 .hero-subtext {
     color: #E5E7EB;
     font-size: 18px;
-    width: calc(70% - 0px); /* Adjust based on desired spacing */
+    width: 100%;
     margin-bottom: 32px;
 }
 
@@ -85,14 +86,9 @@ body {
     margin-bottom: 32px;
 }
 
-/* .hero-content {
-    width: calc(50% - 32px); /* Adjust based on desired spacing */
-} */
-
 .hero-img {
     width: 100%;
-    max-width: 600px;
-    border-radius: 16px;
+    max-width: 800px;
     height: auto;
 }
 
