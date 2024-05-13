@@ -1,83 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>landing page</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <div class="header">
-            <div class="h-logo">
-                Header Logo
-            </div>
-                
-            <ul>
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
-        </div>
-        <div class="hero">
-            <div class="hero-left">
-                <div class="hero-title">
-                    This website is aweseome.
-                </div>
-                <div class="hero-subtext">
-                    This website has some subtext that goes here under the main title. It is a smaller font and the color is more subtle.
-                </div>
-                <div>
-                    <button class="button hero-button">Sign up</button>
-                </div>
-            </div>
-            <div>
-                <img class="hero-img" src="./images/c5.png" alt="This is a placeholder image.">
-            </div>
-        </div>
-        <div class="info">
-            <div class="info-title">
-                Some random information.
-            </div>
-            <div class="collection">
-                <div class="c-elem">
-                    <img class="c-img" src="./images/c1.png" alt="color one">
-                    <div class="c-subtext">Some subtext underneath an illu or an image</div>
-                </div>
-                <div class="c-elem">
-                    <img class="c-img" src="./images/c2.png" alt="color two">
-                    <div class="c-subtext">Some subtext underneath an illu or an image</div>
-                </div>
-                <div class="c-elem">
-                    <img class="c-img" src="./images/c3.png" alt="color three">
-                    <div class="c-subtext">Some subtext underneath an illu or an image</div>
-                </div>
-                <div class="c-elem">
-                    <img class="c-img" src="./images/c4.png" alt="color four">
-                    <div class="c-subtext">Some subtext underneath an illu or an image</div>
-                </div>
-            </div>
-        </div>
-        <div class="inspiration">
-            <div class="i-quote">
-                This is an inspiring quote, or a testimonial from a customer. Maybe it is just filling space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-            </div>
-            <div class="i-author">
-                -Thor, God of Thunder
-            </div>
-        </div>
-        <div class="action">
-            <div class="action-left">
-                <div class="a-title">
-                    Call to action! It's time!
-                </div>
-                <div class="a-subtext">
-                    Sign up for our product by clicking that button right over there!
-                </div>
-            </div>
-            <div class="action-right">
-                <button class="button action-button">Sign up</button>
-            </div>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">Header Logo</div>
+        <ul class="header-links">
+            <li><a href="#">Header Link One</a></li>
+            <li><a href="#">Header Link Two</a></li>
+            <li><a href="#">Header Link Three</a></li>
+        </ul>
+    </header>
 
-    </body>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">This website is awesome.</h1>
+            <p class="hero-subtext">This website has some subtext that goes here under the main title. It is a smaller font and the color is more subtle.</p>
+            <button class="button hero-button">Sign Up</button>
+        </div>
+        <img class="hero-img" src="./images/c5.png" alt="This is a placeholder image.">
+    </section>
+
+    <section class="info">
+        <h2 class="info-title">Some Random Information</h2>
+        <div class="collection">
+            <div class="c-elem">
+                <img class="c-img" src="./images/c1.png" alt="Color One">
+                <div class="c-subtext">Some subtext underneath an illustration or an image</div>
+            </div>
+            <div class="c-elem">
+                <img class="c-img" src="./images/c2.png" alt="Color Two">
+                <div class="c-subtext">Some subtext underneath an illustration or an image</div>
+            </div>
+            <div class="c-elem">
+                <img class="c-img" src="./images/c3.png" alt="Color Three">
+                <div class="c-subtext">Some subtext underneath an illustration or an image</div>
+            </div>
+            <div class="c-elem">
+                <img class="c-img" src="./images/c4.png" alt="Color Four">
+                <div class="c-subtext">Some subtext underneath an illustration or an image</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="inspiration">
+        <blockquote class="i-quote">This is an inspiring quote, or a testimonial from a customer. Maybe it is just filling space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</blockquote>
+        <div class="i-author">- Thor, God of Thunder</div>
+    </section>
+
+    <section class="action">
+        <div class="action-content">
+            <h2 class="a-title">Call to Action! It's Time!</h2>
+            <p class="a-subtext">Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <button class="button action-button">Sign Up</button>
+    </section>
+</body>
 </html>
